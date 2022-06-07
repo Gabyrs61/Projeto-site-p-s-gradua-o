@@ -1,0 +1,345 @@
+<div class="jumbotron text-center">
+  <h1>Unidades Federativas e Municípios</h1>
+  <p>Listagem básica e suas respectivas características!</p>
+</div>
+
+
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <title>Bootstrap Example</title>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.1/css/bootstrap.min.css">
+  <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
+  <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.1/js/bootstrap.min.js"></script>
+</head>
+<body>
+
+<div class="container">
+  <h2>MENU PRINCIPAL</h2> 
+</div>
+
+</body>
+</html>
+
+<html>
+<select id="PPF" class="select_teimoso"> 
+    <option value="PF">Unidades Federativas</option>
+    <option value="PJ">Municípios</option>
+</select>
+<select id="banco" class="select_teimoso">
+    <option value="Cadastro">Formulário de Cadastro</option>
+    <option value="Edição">Formulário de Edição</option>
+    <option value="Exclusão">Formulário de Exclusão do item</option>
+</select>
+<fieldset>
+</html>
+
+
+
+
+
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <title>Bootstrap Example</title>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.1/css/bootstrap.min.css">
+  <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
+  <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.1/js/bootstrap.min.js"></script>
+</head>
+<body>
+
+<div class="container">
+  <h2>Unidades Federativas</h2>          
+  <table class="table">
+    <thead>
+      <tr>
+        <th>Sigla</th>
+        <th>Nome</th>
+        <th>Formulário de Cadastro</th>
+        <th>Formulário de edição</th>
+        <th>Formulário de exclusão do item</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td>DF</td>
+        <td>Distrito Federal</td>
+        <td>email/senha usuario</td>
+        <td>confirmação de senha</td>
+        <td>confirmação de senha caso necessário</td>
+      </tr>
+      <tr>
+        <td>MG</td>
+        <td>Minas Gerais</td>
+        <td>email/senha usuario</td>
+        <td>confirmação de senha</td>
+        <td>confirmação de senha caso necessário</td>
+      </tr>
+      <tr>
+        <td>RJ</td>
+        <td>Rio de Janeiro</td>
+        <td>email/senha usuario</td>
+        <td>confirmação de senha</td>
+        <td>confirmação de senha caso necessário</td>
+      </tr>
+    </tbody>
+  </table>
+</div>
+
+</body>
+</html>
+
+
+
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <title>Bootstrap Example</title>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.1/css/bootstrap.min.css">
+  <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
+  <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.1/js/bootstrap.min.js"></script>
+</head>
+<body>
+
+<div class="container">
+  <h2>Municípios</h2>          
+  <table class="table">
+    <thead>
+      <tr>
+        <th>Sigla</th>
+        <th>Nome</th>
+        <th>Formulário de Cadastro</th>
+        <th>Formulário de edição</th>
+        <th>Formulário de exclusão do item</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td>DF</td>
+        <td>Ceilândia</td>
+        <td>email/senha usuario</td>
+        <td>confirmação de senha</td>
+        <td>confirmação de senha caso necessário</td>
+      </tr>
+      <tr>
+        <td>MG</td>
+        <td>Três Marias</td>
+        <td>email/senha usuario</td>
+        <td>confirmação de senha</td>
+        <td>confirmação de senha caso necessário</td>
+      </tr>
+      <tr>
+        <td>RJ</td>
+        <td>São Gonçalo</td>
+        <td>email/senha usuario</td>
+        <td>confirmação de senha</td>
+        <td>confirmação de senha caso necessário</td>
+      </tr>
+    </tbody>
+  </table>
+</div>
+
+</body>
+</html>
+
+
+
+<html>
+<head>
+    <script type="text/javascript" src="jquery-1.7.2.min.js"></script>
+    <script type="text/javascript" src="funcoes.js"></script>
+</head>
+<body>
+    <button id="btnAdicionar”>Novo</button>
+    <table id="tblCadastro">         
+        <thead>
+            <tr>
+            </tr>
+        </thead>
+        <tbody>
+        </tbody>
+    </table>
+</body>
+</html>
+
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <title>Bootstrap Example</title>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.1/css/bootstrap.min.css">
+  <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
+  <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.1/js/bootstrap.min.js"></script>
+</head>
+<body>
+
+<div class="container">
+  <h3>Usuario e senha</h3>
+ 
+  <form>
+    <div class="input-group">
+      <span class="input-group-addon"><i class="glyphicon glyphicon-user"></i></span>
+      <input id="email" type="text" class="form-control" name="email" placeholder="Email">
+    </div>
+    <div class="input-group">
+      <span class="input-group-addon"><i class="glyphicon glyphicon-lock"></i></span>
+      <input id="senha" type="senha" class="form-control" name="senha" placeholder="senha">
+    </div>
+    <br>
+    <div class="input-group">
+      <span class="input-group-addon">Esqueceu a senha?</span>
+      <input id="msg" type="text" class="form-control" name="msg" placeholder="CPF">
+    </div>
+  </form>
+  <br>
+
+  
+</div>
+
+</body>
+</html>
+
+
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <title>Bootstrap Example</title>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.1/css/bootstrap.min.css">
+  <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
+  <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.1/js/bootstrap.min.js"></script>
+</head>
+<body>
+
+<div class="container">
+  <h2>Formulário de Cadastro</h2>
+  <form>
+    <div class="form-group">
+      <label for="usr">Nome:</label>
+      <input type="text" class="form-control" id="usr">
+    </div>
+       <div class="form-group">
+      <label for="usr">Email:</label>
+      <input type="text" class="form-control" id="usr">
+    </div>
+    <div class="form-group">
+      <label for="pwd">Senha:</label>
+      <input type="password" class="form-control" id="pwd">
+    </div>
+  </form>
+</div>
+
+</body>
+</html>
+
+
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <title>Bootstrap Example</title>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.1/css/bootstrap.min.css">
+  <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
+  <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.1/js/bootstrap.min.js"></script>
+</head>
+<body>
+
+<div class="container">
+  <h2>Formulário de Edição</h2>
+  <form>
+    <div class="form-group">
+      <label for="usr">Email:</label>
+      <input type="text" class="form-control" id="usr">
+    </div>
+       <div class="form-group">
+      <label for="usr">Alteração:</label>
+      <input type="text" class="form-control" id="usr">
+    </div>
+      <div class="form-group">
+      <label for="usr">Modificação:</label>
+      <input type="text" class="form-control" id="usr">
+    </div>
+    <div class="form-group">
+      <label for="pwd">Senha:</label>
+      <input type="password" class="form-control" id="pwd">
+    </div>
+  </form>
+</div>
+
+</body>
+</html>
+
+
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <title>Bootstrap Example</title>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.1/css/bootstrap.min.css">
+  <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
+  <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.1/js/bootstrap.min.js"></script>
+</head>
+<body>
+
+<div class="container">
+  <h2>Formulário de Exclusão</h2>
+  <form>
+    <div class="form-group">
+      <label for="usr">Email:</label>
+      <input type="text" class="form-control" id="usr">
+    </div>
+    <div class="form-group">
+      <label for="pwd">Senha:</label>
+      <input type="password" class="form-control" id="pwd">
+    </div>
+  </form>
+</div>
+
+</body>
+</html>
+
+
+
+<!DOCTYPE html>
+<html>
+<head>
+<script src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
+<script> 
+$(document).ready(function(){
+  $("#flip").click(function(){
+    $("#panel").slideDown("slow");
+  });
+});
+</script>
+<style> 
+#panel, #flip {
+  padding: 5px;
+  text-align: center;
+  background-color: ##0000FF;
+  border: solid 1px ##0000FF;
+}
+
+#panel {
+  padding: 50px;
+  display: none;
+}
+</style>
+</head>
+<body>
+ 
+<div id="flip">PARA MAIS INFORMAÇÕES CLIQUE AQUI!</div>
+<div id="panel">Entre em contato com nosso numero, 0800 000 000, atendimento 24 horas todos os dias da semana </div>
+
+</body>
+</html>
+
